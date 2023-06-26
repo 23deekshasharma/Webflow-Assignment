@@ -1,0 +1,1393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 80px;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 1px 0px #E5E9F2;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 2.625rem;
+    width: 8rem;
+    background-image: url('./images/Northstar-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-feature-settings: 'liga' off;
+    color: #373737;
+}
+
+#enrollButton {
+    width: 6.625rem;
+    height: 2.5rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    background-color: #EE2737;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 1.98214px;
+    color: #F8EC34;
+}
+
+
+.hero-section {
+    position: absolute;
+    width: 100%;
+    height: 40.5rem;
+    background: #FFF1E9;
+}
+
+.hero-section h1 {
+    position: absolute;
+    width: 37rem;
+    height: 10.5rem;
+    margin-left: 5.25rem;
+    margin-top: 4.254rem;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.625rem;
+    line-height: 4rem;
+    font-feature-settings: 'liga' off;
+    color: #212020;
+}
+
+#hero-para {
+    width: 38rem;
+    height: 9.375rem;
+    position: absolute;
+    /* Headline 6 */
+    margin-top: 16rem;
+    margin-left: 7rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    /* or 150% */
+    text-align: justify;
+    font-feature-settings: 'liga' off;
+    color: #373737;
+    /* Inside auto layout */
+}
+
+.aboutcourse {
+    width: 131px;
+    height: 10px;
+    position: absolute;
+    /* Headline 6 */
+    margin-top: 14rem;
+    margin-left: 7rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 150% */
+    text-align: justify;
+    font-feature-settings: 'liga' off;
+    color: #373737;
+    background-color: #F8EC34;
+    /* Inside auto layout */
+}
+
+.picture {
+    box-sizing: border-box;
+    position: absolute;
+    width: 36.563rem;
+    height: 22.063rem;
+    margin-left: 7rem;
+    margin-top: 28rem;
+    background: linear-gradient(270deg, #000000 26.5%, rgba(0, 0, 0, 0) 52.99%), url('./images/Rectangle.png');
+    background-size: cover;
+    border: 3px solid yellow;
+}
+
+.picture p.one {
+    position: absolute;
+    width: 258px;
+    height: 99px;
+    left: 300px;
+    top: 40px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+    /* or 118% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* yellow */
+    color: #F8EC34;
+
+
+}
+
+.picture .line {
+    position: absolute;
+    width: 235px;
+    height: 4px;
+    left: 321px;
+    top: 150px;
+    background: #EE2737;
+}
+
+.picture p.second {
+    position: absolute;
+    width: 198px;
+    height: 52px;
+    left: 349px;
+    top: 155px;
+
+    /* Body 1 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #F5F5F5;
+}
+
+.first {
+    position: absolute;
+    width: 192px;
+    height: 54px;
+    left: 351px;
+
+    top: 202px;
+
+    /* Headline 3 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* yellow */
+
+    color: #F8EC34;
+
+    text-shadow: 2px 2px 1px #000000;
+}
+
+.watch-now {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 8px;
+
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 370px;
+    bottom: 42px;
+    /* margin-left: 370px; */
+    /* margin-bottom: 42px; */
+
+    /* yellow */
+
+    background: #F8EC34;
+    /* Default / White */
+
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.hero-section form {
+    position: absolute;
+    width: 28.8rem;
+    height: 48.688rem;
+    margin-left: 55rem;
+    margin-top: 4.5rem;
+    background: #1E1E1E;
+    /* yellow */
+    border: 4px solid #F8EC34;
+    border-radius: 16px;
+}
+
+.form h2 {
+    width: 100%;
+
+    margin: 10px 0px;
+    box-sizing: border-box;
+    height: 89px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.form div.para {
+    width: 340px;
+    height: 94px;
+    margin: 0px 0px 0px 70px;
+
+    /* Body 1 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.form div.date {
+    width: 186px;
+    background-color: yellow;
+    height: 19px;
+    position: relative;
+    top: -10px;
+    left: 148px;
+
+
+    /* CAPITALISED */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+    /* leading-trim: both;
+text-edge: cap; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+
+    color: #373737;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#formInput1 {
+    width: 385px;
+    height: 52px;
+    padding: 14px 16px;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Cream
+
+    Accent Color
+    */
+    background: #FFF1E9;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 148%;
+    /* identical to box height, or 24px */
+    letter-spacing: -0.005em;
+
+    /* Black */
+
+    color: #373737;
+
+    opacity: 0.9;
+}
+
+#formInput2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 16px;
+
+    width: 385px;
+    height: 52px;
+
+    /* Cream
+
+    Accent Color
+    */
+    background: #FFF1E9;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 148%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: -0.005em;
+
+    /* Black */
+
+    color: #373737;
+
+    opacity: 0.9;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 16px;
+    gap: 10px;
+    margin-left: 18px;
+}
+
+#phone {
+    width: 385px;
+    height: 52px;
+    background: #FFF1E9;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 148%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: -0.005em;
+
+    /* Black */
+
+    color: #373737;
+}
+
+#formInput3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 16px;
+    margin-top: 40px;
+
+    width: 385px;
+    height: 52px;
+
+    /* Cream
+
+    Accent Color
+    */
+    background: #FFF1E9;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 148%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: -0.005em;
+
+    /* Black */
+
+    color: #373737;
+
+    opacity: 0.9;
+
+}
+
+.radios {
+    display: flex;
+    justify-content: center;
+}
+
+.form-radio-para {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    width: 366px;
+    height: 28px;
+
+    /* Subtitle 1 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+
+}
+
+#radio1 {
+    position: absolute;
+    width: 61px;
+    height: 26px;
+    left: 28px;
+
+    /* Body 1 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+
+#radio2 {
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 141px;
+
+    /* Body 1 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+.agree {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#agreement input {
+    box-sizing: border-box;
+
+    width: 20px;
+    height: 20px;
+
+    /* Cream
+
+    Accent Color
+    */
+    border: 1px solid #FFF1E9;
+    border-radius: 4px;
+}
+
+#agreement label {
+    width: 352.85px;
+    height: 44px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 26px;
+    gap: 10px;
+
+    position: absolute;
+    width: 377px;
+    height: 59px;
+    margin-left: calc(50% - 377px/2 - 4px);
+    margin-top: 40px;
+
+    background: #EE2737;
+    /* Gray 1 */
+
+    border: 2px solid #F5F5F5;
+    border-radius: 4px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* yellow */
+
+    color: #F8EC34;
+
+}
+
+h3.content {
+    position: absolute;
+    text-decoration: yellow underline;
+    width: 386px;
+    height: 64px;
+    left: 135px;
+    top: 951px;
+    /* Headline 2 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+}
+
+p.content-in {
+    position: absolute;
+    width: 617px;
+    height: 120px;
+    left: 143px;
+
+    top: 1033px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: justify;
+    font-feature-settings: 'liga' off;
+
+    color: #000000;
+
+}
+
+div.icons {
+    position: relative;
+    top: 1088px;
+    left: 140px;
+    width: 608px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.icons .logo {
+    width: 226px;
+    height: 74px;
+    
+    
+    background-image: url('./images/Northstar-logo.png');
+    background-size: cover;
+   
+}
+
+div.icons .logo1 {
+    height: 60px;
+    width: 109px;
+    background-image: url('./images/Layer2.png');
+    background-size: cover;
+}
+
+div.icons .logo2{
+    width: 183px;
+height: 78px;
+
+
+    background-image: url('./images/Becker.png');
+    background-size: cover;
+   
+}
+.logo3 {
+    position: absolute;
+    width: 394px;
+    top: 1000px;
+    left: 903px;
+    height: 358px;
+    background: url(./images/phone.png);
+    background-size: cover;
+}
+
+.trainer {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 796px;
+    left: 0px;
+    top: 1408px;
+    padding: 44px 0px 0px 78px;
+
+
+    /* red */
+
+    background: #EE2737;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 7.5px;
+
+    width: 550px;
+    height: 33px;
+
+    /* yellow */
+    margin-bottom: 20px;
+    background: #F8EC34;
+}
+
+.caption span {
+    width: 550px;
+    height: 10px;
+
+    /* CAPITALISED */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga';
+
+    color: #373737;
+}
+
+div.heading {
+    width: 775px;
+    height: 108px;
+    margin-bottom: 22px;
+    /* Headline 3 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    /* or 135% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Gray 1 */
+
+    color: #F5F5F5;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+div.para1 {
+    width: 719px;
+    height: 120px;
+
+    /* Headline 6 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: justify;
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.stars{
+    width:652.96px;
+height: 80.5px;
+
+background-image: url('./images/stars.png');
+background-size: cover;
+}
+
+div.screenshot {
+    position: absolute;
+    width: 664px;
+    height: 274.06px;
+    left: 70px;
+    top: 494px;
+
+    background: url('./images/screenshot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.sir {
+    position: absolute;
+    width: 564px;
+    height: 851px;
+    left: 771px;
+    top: -54px;
+
+    background: url('./images/sir.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.linkedin {
+    position: absolute;
+    left: 1259px;
+    right: 0%;
+    top: 80px;
+    bottom: 0%;
+    height: 100px;
+    width: 100px;
+
+    /* Cream
+
+    Accent Color
+    */
+    background: #FFF1E9;
+    background: url('./images/linkedin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.CMASection {
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    width: 1280px;
+    height: 263.7px;
+    left: 80px;
+    top: 2258px;
+
+    /* Cream
+
+    Accent Color
+    */
+    background: #FFF1E9;
+    /* red */
+
+    border: 2px solid #EE2737;
+    box-shadow: 0px 16px 0px #EE2737;
+    border-radius: 24px;
+}
+
+.CMASection .text {
+    width: 560px;
+    height: 108px;
+
+    /* Headline 3 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    /* or 135% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+}
+
+.CMASection .text1 {
+    width: 436px;
+    height: 56px;
+
+    /* Subtitle 1 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.CMAsection .frame6 {
+    width: 125px;
+    height: 10px;
+    background-color: yellow;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+
+    color: #373737;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#webinarButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18.627px 51.8894px;
+
+    position: absolute;
+    width: 293.78px;
+    height: 78.25px;
+
+    /* red */
+
+    background: #EE2737;
+    border-radius: 3.99149px;
+}
+
+.webinarText {
+
+    width: 190px;
+    height: 41px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    /* yellow */
+
+    color: #F8EC34;
+
+}
+
+#webinar .dateHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 7.5px;
+
+    position: absolute;
+    width: 166px;
+    height: 26px;
+    margin-left: 32px;
+    margin-top: 10px;
+
+
+    /* yellow */
+
+    background: #F8EC34;
+}
+
+#webinar .date {
+    width: 157px;
+    height: 40px;
+
+    /* Headline 4 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+
+}
+
+#webinar .time {
+    width: 205px;
+    height: 80px;
+
+    /* Headline 4 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    /* or 143% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+
+}
+
+.CMASection button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 78.25px;
+    margin-left: 0px;
+    margin-top: 60px;
+
+    /* red */
+
+    background: #EE2737;
+    border-radius: 3.99149px;
+}
+
+.CMASection button span {
+    width: 230px;
+    height: 41px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    /* yellow */
+
+    color: #F8EC34;
+}
+
+.WhyCma {
+    position: absolute;
+    width: 100%;
+    height: 1078px;
+    left: 0px;
+    top: 2610px;
+
+    /* Cream
+
+Accent Color
+*/
+    background: #FFF1E9;
+}
+
+.WhyCma h2 {
+    margin: 34px auto;
+    width: 400px;
+    height: 64px;
+
+
+    /* Headline 2 */
+    text-decoration: yellow underline;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+}
+
+.Cma-para {
+    width: 780px;
+    height: 120px;
+    margin: auto;
+
+    /* Headline 6 */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+    font-feature-settings: 'liga' off;
+
+    /* Black */
+
+    color: #373737;
+}
+.box-container{
+    width: 900px;
+    height: 175px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-container .item{
+   margin-right: 5px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.box-container .item1{
+    background-color: black;
+    color: yellow;
+}
+.WhyCma .box{
+    width: 1260px ;
+    height: 425.25px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box-1{
+    width: 552px;
+height: 231px;
+font-family: Manrope;
+font-size: 24px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: -0.01em;
+text-align: left;
+
+
+
+}
+.box-2{
+    width: Hug (473px);
+height: Hug (300px);
+left: 658px;
+gap: 14px;
+font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.box-2 .point{
+    width: 473px;
+    height: 78px;
+}
+.btn button{
+    width: 216px;
+    height: 64px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    display: block;
+    background-color: #EE2737;
+    position: relative;
+    top: 60px;
+    left: 600px;
+
+    
+}
+.btn button span{
+    font-family: Manrope;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+    color: #F8EC34;
+
+}
+.squares {
+    display: flex;
+    margin-top: 3500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 260px;
+    height: 260px;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 6px;
+    transform: rotate(0deg);
+    border: 4px solid red;
+}
+
+.squareIcon {
+    position: absolute;
+ 
+    right: 10px;
+    top: 15px;
+    bottom: 0%;
+}
+.content{
+    width: 145.6796875px;
+height: 173px;
+top: 69px;
+left: 30px;
+
+position: relative;
+}
+
+.square .content-1{
+    width: 109px;
+height: 66px;
+top: 69px;
+left: 30px;
+    font-family: Manrope;
+font-size: 60px;
+font-weight: 800;
+line-height: 86px;
+letter-spacing: 0em;
+text-align: center;
+text-decoration: yellow underline;
+padding-bottom: 15px;
+
+}
+.square .content-2{
+    margin-top:10px ;
+    width: 143px;
+    height: 76px;
+    top: 166px;
+    left: 32.6796875px;
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 453px;
+    left: calc(50% - 1440px/2);
+    top: 4138px;
+
+    /* red */
+
+    background: #EE2737;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 199px;
+    height: 66px;
+    left: 621px;
+    top: 28px;
+
+    background: url(images/northstarlogo.png);
+}
+
+.footer .left {
+    position: absolute;
+    width: 764px;
+    height: 402px;
+    top: 47px;
+    background: url("./images/ColorFill1.png");
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.footer .right {
+    position: absolute;
+    width: 764px;
+    height: 402px;
+    left: 672px;
+    top: 47px;
+
+    background: url("./images/ColorFill1.png");
+}
+
+.referText {
+    width: 400px;
+    padding: 20px;
+    height: 100px;
+    justify-content: center;
+    margin-top: 7rem;
+    color: white;
+    border: 3px dashed white;
+}
+
+.referText p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 1rem;
+    line-height: 30px;
+    color: white;
+}
+
+.footer button {
+    background-color: #373737;
+    color: #F8EC34;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.referText .assistance {
+    margin-top: 80px;
+    width: 500px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 1rem;
+    line-height: 30px;
+    color: white;
+}
+
+.endFooter {
+    margin-top: 220px;
+    width: 100%;
+    height: 30px;
+    background-color: #373737;
+
+}
